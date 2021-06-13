@@ -15,15 +15,15 @@ const data = {
 
 const data_true= {
 
-  name: "true",
-  email: "true",
+  {name: "true", {value:"Bar"}},
+  {email: "true", {value:"foo@example.com" }},
       address: {
         line_1: "true",
         line_2: "false",
         street: "true",
         country: {
-          name: "true",
-          code: "true",
+          {name: "true"},
+          {code: "true"},
         },
       },
 
